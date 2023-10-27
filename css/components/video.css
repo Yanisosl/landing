@@ -1,0 +1,26 @@
+.content {
+    display: flex;
+    align-items: center; 
+    padding: 50px;
+}
+
+.Trailer {
+    text-align: center;
+}
+
+.Trailer h1 {
+    font-size: 55px;
+    color: #6131AD;
+}
+
+.Trailer p {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 950px) {
+    .content {
+        flex-direction: column;  /* Permet au texte d'être au-dessus de la vidéo */
+        align-items: center;     /* Centre le texte verticalement */
+    }
+}

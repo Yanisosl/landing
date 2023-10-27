@@ -1,0 +1,14 @@
+.end {
+    display: flex;
+    align-items: center; 
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+.end div {
+    font-family: 'Roboto', sans-serif;
+    color: #242423;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+  }

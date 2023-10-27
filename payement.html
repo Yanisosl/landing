@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payement</title>
+    <link rel="stylesheet" href="css/payement.css">
+</head>
+<body>
+    <div class="container">
+        <div class="Credit-card">
+            <p>Debit/Credit Card</p>
+        <div class="right-image">
+            <img src="images/Mastercard-payement.png" alt="">
+            <img src="images/Visa-Payement.png" alt="">
+        </div>
+        </div>
+        <div class="name">
+            <h3>Name</h3>
+            <input placeholder="e.g. Richard Bovell" id="cardholdername" type="text" />
+        </div>
+        <div class="name">
+            <h3>Card Number</h3>
+            <input id="cardnumber" type="number" pattern="[0-9]{16,19}" maxlength="19" placeholder="8888-8888-8888-8888"/>
+        </div>
+
+        <div class="Expiry">
+            <h3>Expiry</h3>
+            <input id="cardnumber" type="number" maxlength="6" placeholder="MM / YYYY"/>
+            <h3>CVC/CVV</h3>
+            <input id="cardnumber" type="number" maxlength="6" placeholder="123"/>
+        </div>
+        <button type="submit"><i class="payement-button"></i> Confirm and Pay</button>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Roboto&display=swap");
+
+@import url("components/about.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/end.css");
+@import url("components/video.css");
+
+
+body{
+    margin: 0;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ff9500;
+    font-size: 35px;
+}
